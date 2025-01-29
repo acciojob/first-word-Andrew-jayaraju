@@ -2,7 +2,7 @@ function firstWord(s) {
   // your code here
 	s = s.trim();
 	if (s === "") return ""; 
-	const ans = str.split(" ");
+	const ans = s.split(" ");
     return ans[0];
 }
 
